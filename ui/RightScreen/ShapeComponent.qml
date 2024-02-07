@@ -12,10 +12,6 @@ Image {
             drag.axis: Drag.XAndYAxis
         }
 
-
-
-
-    // Resizing from bottom right corner
         Rectangle {
             id: resizeHandle
             width: 20
@@ -35,7 +31,7 @@ Image {
 
 
                 onPressed: {
-                    resizeArea.drag.target = resizeHandle // Set the target of the drag operation to the parent Image
+                    resizeArea.drag.target = resizeHandle
                     resizeArea.initialWidth = squareImage.width
                     resizeArea.initialHeight = squareImage.height
                     resizeArea.initialMouseX = mouse.x

@@ -32,6 +32,7 @@ QML_FILES
 RESOURCES ui/assets/cylinder.png ui/assets/sphere.png ui/assets/square.png
 QML_FILES ui/RightScreen/ShapeComponent.qml
 RESOURCES ui/assets/palette-solid.png
+RESOURCES ui/assets/redo-solid.png ui/assets/undo-solid.png
 
 )
 
